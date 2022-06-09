@@ -210,6 +210,7 @@ if __name__ == '__main__':
     # databaseClass().rollBack()
     #databaseClass().insert100Many()
 
+
     # 关闭数据库链接
     databaseClass().closeDatabase()
 
