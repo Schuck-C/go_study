@@ -1,5 +1,6 @@
 
 import pymysql
+import sys
 import random, string
 
 
@@ -32,18 +33,36 @@ class databaseClass:
         self.cur.execute(sql)
 
     def insertOne(self):
-        insert = self.cur.execute("insert into user values(5, 'tom', 18)")
-        print('添加语句受影响的行数', insert)
+        #insert = self.cur.execute("insert into user values(5, 'tom', 18)")
+        #print('添加语句受影响的行数', insert)
         # 另一种写法
         sql = "insert into user values(%s, %s, %s)"
-        self.cur.execute(sql, (8, '小明', 30))
+        #
+        try:
+            # 执行sql语句
+            self.cur.execute(sql, (8, '小明', 30))
+            # 提交到数据库执行
+            self.conn.commit()
+        except:
+            # Rollback in case there is any error
+            self.conn.rollback()
+            print("函数insertOne()出现错误:", sys.exc_info()[0])
 
     def insertMany(self):
         # 另一种插入数据的方式, 通过字符串传入值
         sql = "insert into user values(%s, %s, %s)"
-        insert = self.cur.executemany(sql, [(4, '文明', 20), (10, '法制', 18), (6, '礼让', 19), (7, '和谐', 20), (13, '富强', 18),
-                                            (9, '礼让', 19)])
-        print('批量插入返回受影响的行:', insert)
+        try:
+            insert = self.cur.executemany(sql,
+                                          [(4, '文明', 20), (10, '法制', 18), (6, '礼让', 19), (7, '和谐', 20), (13, '富强', 18),
+                                           (9, '礼让', 19)])
+            print('批量插入返回受影响的行:', insert)
+
+        except:
+            # Rollback in case there is any error
+            self.conn.rollback()
+            print("函数insertMany()出现错误:", sys.exc_info()[0])
+
+
 
     """
     查询：
@@ -119,7 +138,14 @@ class databaseClass:
 
         # 更新两条数据
         sql = "update user set age=%s where name=%s"
-        update = self.cur.executemany(sql, [(15, '和谐'), (18, '富强')])
+        try:
+            update = self.cur.executemany(sql, [(15, '和谐'), (18, '富强')])
+
+        except:
+            # Rollback in case there is any error
+            self.conn.rollback()
+            print("函数updateMany()出现错误:", sys.exc_info()[0])
+
 
         # 更新2条数据后查询所有数据
         self.cur.execute("select * from user where name in ('和谐', '富强');")
@@ -198,12 +224,12 @@ if __name__ == '__main__':
     # databaseClass().createDatabase()
 
     #databaseClass().createTable()
-    #databaseClass().insertOne()
-    #databaseClass().insertMany()
-    #databaseClass().searchOne()
-    databaseClass().searchMany()
-    databaseClass().searchAll()
-    databaseClass().updateOne()
+    databaseClass().insertOne()
+    databaseClass().insertMany()
+    databaseClass().searchOne()
+    # databaseClass().searchMany()
+    # databaseClass().searchAll()
+    # databaseClass().updateOne()
     # databaseClass().updateMany()
     # databaseClass().deleteOne()
     # databaseClass().deleteMany()
@@ -213,6 +239,8 @@ if __name__ == '__main__':
 
     # 关闭数据库链接
     databaseClass().closeDatabase()
+
+
 
 
     '''
