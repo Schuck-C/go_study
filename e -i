@@ -1,0 +1,54 @@
+[33mcommit 27ba2e72764925f3c7903cd714bb3bf6882d8a0c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7ae11ad 9f74264
+Author: Schuck-C <1263872448@qq.com>
+Date:   Fri Jun 24 16:48:37 2022 +0800
+
+    Merge branch 'master' of https://gitee.com/Schuck-C/go_study into master
+
+[33mcommit 7ae11add4f2ac23c087576bf8116342196de73dd[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Fri Jun 10 16:17:56 2022 +0800
+
+    加入异常处理1
+
+[33mcommit 9f74264fb064de25e35db12667b3430e0235da00[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Fri Jun 10 16:17:56 2022 +0800
+
+    加入异常处理
+
+[33mcommit 105b15e7e0d58b09cf7c70210dbd17f0b02e6f6a[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Thu Jun 9 18:19:08 2022 +0800
+
+    python-test-git
+
+[33mcommit 6517fc9377e47d5c076e37c0be2f23e7f1f49881[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Thu Jun 9 18:17:24 2022 +0800
+
+    python
+
+[33mcommit 8ff06f995c6492e523ecaae74d7d29c4650f4c5e[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Wed Jun 8 10:37:39 2022 +0800
+
+    日常更新
+
+[33mcommit e978966e484ba628d56a7940fab390673335f700[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Wed Jun 8 02:33:29 2022 +0000
+
+    add README.md.
+
+[33mcommit 97fa87f74ebb48def4a33ecaec81bb92c20e79ed[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Wed Jun 8 10:32:38 2022 +0800
+
+    日常更新
+
+[33mcommit 4b16285bb3a28636171401c032e5cb6e892f9ed9[m
+Author: Schuck-C <1263872448@qq.com>
+Date:   Wed Jun 8 02:28:07 2022 +0000
+
+    Initial commit
