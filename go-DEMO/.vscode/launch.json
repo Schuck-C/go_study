@@ -1,0 +1,19 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${fileDirname}",
+            "env": {
+                "GOPATH":"D:\\Go\\gopath",
+              //  "GOPATH":"D:\\go-DEMO\\study\\19_interface",
+                "GOROOT":"D:\\Go"
+            },
+            "args": []
+        }
+    ]
+}
