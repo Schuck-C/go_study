@@ -18,7 +18,7 @@ func setTitle(book *Book) {
 	book.title = "little prince"
 }
 
-func main() {
+func basic() {
 	//var book Book
 	book := Book{}
 	book.title = "[Little Prince]"

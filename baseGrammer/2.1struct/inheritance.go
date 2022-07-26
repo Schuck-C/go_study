@@ -2,31 +2,41 @@ package main
 
 import "fmt"
 
-//Person 结构体
-type Person struct {
+//Human结构体
+type Human struct {
 	name string
-	age  int8
+	sex  string
 }
 
-//NewPerson 构造函数
-func NewPerson(name string, age int8) *Person {
-	return &Person{
-		name: name,
-		age:  age,
-	}
+func (this *Human) Eat() {
+	fmt.Println("Human.Eat()...", this.name)
 }
 
-// SetAge 设置p的年龄
-// 使用指针接收者
-func (p *Person) SetAge(newAge int8) {
-	p.age = newAge
+func (this *Human) Walk() {
+	fmt.Println("Human.Walk()...")
 }
+
+type SuperHuman struct {
+	Human //SuperHuman类继承了Human类的方法
+	level int
+}
+
+//重定义父类的方法Eat
+func (this *SuperHuman) Eat() {
+	fmt.Println("SuperHuman.Eat()...", this.name)
+}
+
+//子类的新方法
+func (this *SuperHuman) Fly() {
+	fmt.Println("SuperHuman.Fly()...")
+}
+
 func inheritance() {
-	p1 := NewPerson("小王子", 25)
-	fmt.Println(p1.age) // 25
-	p1.SetAge(30)
-	fmt.Println(p1.age) // 30
-	var a = 10
+	human := Human{"张飒", "女"}
+	human.Eat()
+	s := SuperHuman{human, 10}
+	s.Eat()
+	fmt.Println(s.level)
+	s.Fly()
 
-	fmt.Printf("变量的地址: %x\n", &a)
 }
