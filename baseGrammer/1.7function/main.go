@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main1() {
 	fmt.Println("===========================")
 	//testLocalVar2(5, 6)
 	fmt.Println("===========================")
