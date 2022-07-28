@@ -1,0 +1,4 @@
+2022/07/08 16:25:03.454061 E:/代码库/go_study/baseGrammer/1.6log/main.go:31: 这是一条很普通的日志。
+[小王子]2022/07/08 16:25:03.479776 E:/代码库/go_study/baseGrammer/1.6log/main.go:33: 这是一条很普通的日志。
+2022/07/08 16:29:26.162232 E:/代码库/go_study/baseGrammer/1.6log/main.go:31: 这是一条很普通的日志。
+[小王子]2022/07/08 16:29:26.187102 E:/代码库/go_study/baseGrammer/1.6log/main.go:33: 这是一条很普通的日志。

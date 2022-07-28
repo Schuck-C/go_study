@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\GolangTraining-master\27_code-in-process\32_package-encoding-csv\07_NewReader\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\32_package-encoding-csv\state_table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\37_review-exercises\15_csv_state-info\state_table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\37_review-exercises\16_csv_stock-prices\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\38_JSON\15_exercise_csv-to-JSON\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\47_templates\x03_exercises\03_template_csv-parse\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\98-good-student-code\daniel\Week7\monuments\City_of_Champaign_GPS_Control_Points.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\98-good-student-code\daniel\Week7\yahooFinantial\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\GolangTraining-master\27_code-in-process\98-good-student-code\daniel\Week8\csv-convert\table.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
