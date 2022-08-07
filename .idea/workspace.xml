@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="044b238c-f8e3-40f2-8581-00f48ddfd4c5" name="变更" comment="8.7 relect tag">
+    <list default="true" id="044b238c-f8e3-40f2-8581-00f48ddfd4c5" name="变更" comment="8.7">
+      <change afterPath="$PROJECT_DIR$/baseGrammer/3.2/test7_json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -76,7 +77,7 @@
     "configurable..is.expanded": "true",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "E:/代码库/go_study/baseGrammer/2.3reflect",
+    "last_opened_file_path": "E:/代码库/go_study/baseGrammer/3.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.23101519",
     "two.files.diff.last.used.file": "E:/代码库/go_study/go-DEMO/GolangTraining-master/01_getting-started/02_numeral-systems/01_decimal/main.go"
@@ -84,13 +85,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\代码库\go_study\baseGrammer\3.2" />
       <recent name="E:\代码库\go_study\baseGrammer\2.3reflect" />
       <recent name="E:\代码库\go_study\baseGrammer" />
       <recent name="E:\代码库\go_study\baseGrammer\2.1struct" />
       <recent name="E:\代码库\go_study\baseGrammer\1.5slice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build test7_json.go">
+  <component name="RunManager" selected="Go 构建.go build test7_json.go (1)">
     <configuration name="go build pair2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_study" />
       <working_directory value="$PROJECT_DIR$/baseGrammer" />
@@ -115,6 +117,14 @@
       <filePath value="$PROJECT_DIR$/baseGrammer/2.3reflect/relect3.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test7_json.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_study" />
+      <working_directory value="$PROJECT_DIR$/baseGrammer" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/baseGrammer/3.2/test7_json.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test7_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_study" />
       <working_directory value="$PROJECT_DIR$/baseGrammer" />
@@ -123,16 +133,13 @@
       <filePath value="$PROJECT_DIR$/baseGrammer/2.3reflect/test7_json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="1中的所有" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/baseGrammer/2.3reflect/1.http">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build test7_json.go (1)" />
         <item itemvalue="Go 构建.go build test7_json.go" />
         <item itemvalue="Go 构建.go build relect3.go" />
         <item itemvalue="Go 构建.go build reflect.go" />
         <item itemvalue="Go 构建.go build pair2.go" />
-        <item itemvalue="HTTP 请求.1中的所有" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +185,8 @@
     <MESSAGE value="7.28 pair" />
     <MESSAGE value="7.28 补充" />
     <MESSAGE value="8.7 relect tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.7 relect tag" />
+    <MESSAGE value="8.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.7" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
