@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="044b238c-f8e3-40f2-8581-00f48ddfd4c5" name="变更" comment="8.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go-in-action-master/chapter2/sample/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go-in-action-master/chapter2/sample/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +93,21 @@
       <recent name="E:\代码库\go_study\baseGrammer\1.5slice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (1)">
+  <component name="RunManager" selected="Go 构建.go build main.go (2)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_study" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/8小时转职Golang工程师/GolangStudy/5-init/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go-in-action-master/chapter2/sample/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -125,21 +134,13 @@
       <filePath value="$PROJECT_DIR$/baseGrammer/3.2/test7_json.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test7_json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_study" />
-      <working_directory value="$PROJECT_DIR$/baseGrammer" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/baseGrammer/2.3reflect/test7_json.go" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (2)" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build pair2.go" />
         <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build test7_json.go (1)" />
-        <item itemvalue="Go 构建.go build test7_json.go" />
       </list>
     </recent_temporary>
   </component>
